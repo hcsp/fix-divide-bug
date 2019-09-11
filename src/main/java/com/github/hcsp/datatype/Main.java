@@ -6,8 +6,7 @@ public class Main {
     // 请修复此问题，让3/2的结果为正确的1.5
     // 不要修改方法的参数类型
     public static double divide(int a, int b) {
-        double i=(double)a/b;//两边都需要加（double）,因为java中默认的常量类型为int
-        return i;
+        return a / b;
     }
 
     public static void main(String[] args) {
