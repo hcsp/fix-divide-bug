@@ -6,11 +6,7 @@ public class Main {
     // 请修复此问题，让3/2的结果为正确的1.5
     // 不要修改方法的参数类型
     public static double divide(int a, int b) {
-        //先转换为double型，然后再计算
-        //法一
-        return 1.0 * a / b;
-        //法二
-//        return (double) a / b;
+        return a / b;
     }
 
     public static void main(String[] args) {
