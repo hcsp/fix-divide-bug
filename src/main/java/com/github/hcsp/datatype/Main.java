@@ -6,7 +6,7 @@ public class Main {
     // 请修复此问题，让3/2的结果为正确的1.5
     // 不要修改方法的参数类型
     public static double divide(int a, int b) {
-        return (double)a/(double)b;//转换为double类型 （双精度浮点（小数））
+        return a / b;
     }
 
     public static void main(String[] args) {
